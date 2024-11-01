@@ -1,0 +1,882 @@
+{
+	"id": "0",
+	"shortcode_id": "33",
+	"type": "builder",
+	"title": "PC Builder",
+	"page_id": "0",
+	"lang": "",
+	"groups": [
+	  {
+		"id": "0",
+		"config_id": "0",
+		"title": "System unit",
+		"slug": "a8bfc1d5-d61b-44f6-9321-9147ca1f358d",
+		"parent_id": "0",
+		"image_id": "0",
+		"position": "0",
+		"components": [
+		  {
+			"id": "0",
+			"slug": "afdb36a5-a30f-4170-b295-304145b262ab",
+			"title": "Processor",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/05/icons8-processor-80.png",
+			"position": "0",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:processors"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "1",
+			  "extra": "",
+			  "description": "The brain of your computer. It encompasses all aspects of the central processing unit, the core element that drives your PC's performance and execution of tasks.",
+			  "multiple": "1",
+			  "saved_image": ""
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  },
+			  {
+				"groupId": "product_tax",
+				"title": "Filter by taxonomy",
+				"label": "Processors",
+				"value": "product_cat",
+				"include": "processors",
+				"exclude": "",
+				"orderby": "order",
+				"depth": "1",
+				"show_children": "1"
+			  },
+			  {
+				"groupId": "product_attribute",
+				"title": "Filter by attribute",
+				"label": "Ryzen Series",
+				"value": "pa_amd-ryzen-series",
+				"include": "",
+				"exclude": "",
+				"orderby": "order",
+				"query_type": "or"
+			  }
+			]
+		  },
+		  {
+			"id": "0",
+			"slug": "c62dbe80-f8b5-435d-b410-15af57441fad",
+			"title": "Motherboard",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/05/icons8-motherboard-100.png",
+			"position": "1",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:motherboard"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "1",
+			  "extra": "",
+			  "description": "",
+			  "multiple": "",
+			  "saved_image": ""
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  },
+			  {
+				"groupId": "product_tax",
+				"title": "Filter by taxonomy",
+				"label": "Type",
+				"value": "product_cat",
+				"include": "motherboard",
+				"exclude": "",
+				"orderby": "order",
+				"depth": "1",
+				"show_children": "1"
+			  },
+			  {
+				"groupId": "product_attribute",
+				"title": "Filter by attribute",
+				"label": "Socket",
+				"value": "pa_socket",
+				"include": "",
+				"exclude": "",
+				"orderby": "order",
+				"query_type": "or"
+			  },
+			  {
+				"groupId": "product_attribute",
+				"title": "Filter by attribute",
+				"label": "Color",
+				"value": "pa_color",
+				"include": "",
+				"exclude": "",
+				"orderby": "order",
+				"query_type": "or"
+			  }
+			]
+		  },
+		  {
+			"id": "0",
+			"slug": "735fdcd2-d1af-49fb-bf70-466383f77ed2",
+			"title": "Graphics Card",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/noun-graphics-card-1037675.svg",
+			"position": "2",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:graphics-card"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "1",
+			  "extra": "",
+			  "description": "",
+			  "multiple": "",
+			  "saved_image": ""
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  },
+			  {
+				"groupId": "product_tax",
+				"title": "Filter by taxonomy",
+				"label": "GPU manufacturer",
+				"value": "product_cat",
+				"include": "graphics-card",
+				"exclude": "",
+				"orderby": "order",
+				"depth": "1",
+				"show_children": "1"
+			  },
+			  {
+				"groupId": "product_attribute",
+				"title": "Filter by attribute",
+				"label": "Memory Size",
+				"value": "pa_storage",
+				"include": "",
+				"exclude": "",
+				"orderby": "order",
+				"query_type": "or"
+			  },
+			  {
+				"groupId": "product_attribute",
+				"title": "Filter by attribute",
+				"label": "Chipset",
+				"value": "pa_gpu",
+				"include": "",
+				"exclude": "",
+				"orderby": "order",
+				"query_type": "or"
+			  },
+			  {
+				"groupId": "product_attribute",
+				"title": "Filter by attribute",
+				"label": "Memory Type",
+				"value": "pa_memory-type",
+				"include": "",
+				"exclude": "",
+				"orderby": "order",
+				"query_type": "or"
+			  }
+			]
+		  },
+		  {
+			"id": "0",
+			"slug": "c90e09ee-d12f-4926-979d-ac4d7984cdd7",
+			"title": "RAM",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/ram.svg",
+			"position": "3",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:ram"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "1",
+			  "extra": "",
+			  "description": "",
+			  "multiple": "1",
+			  "saved_image": ""
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  },
+			  {
+				"groupId": "product_attribute",
+				"title": "Filter by attribute",
+				"label": "Memory type",
+				"value": "pa_ram",
+				"include": "",
+				"exclude": "",
+				"orderby": "order",
+				"query_type": "or"
+			  },
+			  {
+				"groupId": "product_attribute",
+				"title": "Filter by attribute",
+				"label": "Memory capacity",
+				"value": "pa_storage",
+				"include": "",
+				"exclude": "",
+				"orderby": "order",
+				"query_type": "or"
+			  }
+			]
+		  },
+		  {
+			"id": "0",
+			"config_id": "0",
+			"title": "Storage",
+			"slug": "5c2a404f-d8f2-4f99-a99c-bd45a1c29ea5",
+			"parent_id": "a8bfc1d5-d61b-44f6-9321-9147ca1f358d",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/database.svg",
+			"position": "4",
+			"components": [
+			  {
+				"id": "0",
+				"slug": "38087ed9-99af-4d8a-87b1-b4aa5d32e7dd",
+				"title": "SSD",
+				"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/ssd.svg",
+				"position": "0",
+				"meta": {
+				  "product_query": [
+					{
+					  "groupId": "product_tax",
+					  "title": "Product taxonomy",
+					  "value": [
+						"cat:ssd"
+					  ],
+					  "relation": "OR",
+					  "nextRelation": "OR"
+					}
+				  ],
+				  "required": "",
+				  "extra": "",
+				  "description": "",
+				  "multiple": "1",
+				  "saved_image": ""
+				},
+				"widgets": [
+				  {
+					"groupId": "price",
+					"title": "Filter by price",
+					"label": "Price",
+					"value": "",
+					"inputs": "1"
+				  }
+				]
+			  },
+			  {
+				"id": "0",
+				"slug": "dc31a6ef-cadc-491d-a843-dfa60c872e81",
+				"title": "HDD",
+				"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/hardisk.svg",
+				"position": "1",
+				"meta": {
+				  "product_query": [
+					{
+					  "groupId": "product_tax",
+					  "title": "Product taxonomy",
+					  "value": [
+						"cat:hdd"
+					  ],
+					  "relation": "OR",
+					  "nextRelation": "OR"
+					},
+					{
+					  "groupId": "product_tax",
+					  "title": "Product taxonomy",
+					  "value": [
+						"pa_hdd-type"
+					  ],
+					  "relation": "OR",
+					  "nextRelation": "OR"
+					}
+				  ],
+				  "required": "1",
+				  "extra": "",
+				  "description": "",
+				  "multiple": "",
+				  "saved_image": ""
+				},
+				"widgets": [
+				  {
+					"groupId": "price",
+					"title": "Filter by price",
+					"label": "Price",
+					"value": "",
+					"inputs": "1"
+				  },
+				  {
+					"groupId": "product_attribute",
+					"title": "Filter by attribute",
+					"label": "Type",
+					"value": "pa_hdd-type",
+					"include": "",
+					"exclude": "",
+					"orderby": "order",
+					"query_type": "or"
+				  }
+				]
+			  }
+			],
+			"meta": {
+			  "description": ""
+			}
+		  },
+		  {
+			"id": "0",
+			"config_id": "0",
+			"title": "Processor Cooling",
+			"slug": "ac1ab128-fb55-448e-8b0b-fac8d9c8bb9d",
+			"parent_id": "a8bfc1d5-d61b-44f6-9321-9147ca1f358d",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/cpu-cooler.svg",
+			"position": "5",
+			"components": [
+			  {
+				"id": "0",
+				"slug": "9e792e70-3456-4740-86b6-dac71dc2800a",
+				"title": "Cooler",
+				"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/cooler.svg",
+				"position": "0",
+				"meta": {
+				  "product_query": [
+					{
+					  "groupId": "product_tax",
+					  "title": "Product taxonomy",
+					  "value": [
+						"cat:fan"
+					  ],
+					  "relation": "OR",
+					  "nextRelation": "OR"
+					}
+				  ],
+				  "required": "",
+				  "extra": "",
+				  "description": "",
+				  "multiple": "1",
+				  "saved_image": ""
+				},
+				"widgets": [
+				  {
+					"groupId": "price",
+					"title": "Filter by price",
+					"label": "Price",
+					"value": "",
+					"inputs": "1"
+				  }
+				]
+			  },
+			  {
+				"id": "0",
+				"slug": "e19746a4-2f06-49a6-be35-6b4e1220ff05",
+				"title": "Liquid cooling",
+				"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/liquid-cooler.svg",
+				"position": "1",
+				"meta": {
+				  "product_query": [
+					{
+					  "groupId": "product_tax",
+					  "title": "Product taxonomy",
+					  "value": [
+						"cat:liquid"
+					  ],
+					  "relation": "OR",
+					  "nextRelation": "OR"
+					}
+				  ],
+				  "required": "",
+				  "extra": "",
+				  "description": "",
+				  "multiple": "",
+				  "saved_image": ""
+				},
+				"widgets": [
+				  {
+					"groupId": "price",
+					"title": "Filter by price",
+					"label": "Price",
+					"value": "",
+					"inputs": "1"
+				  }
+				]
+			  }
+			],
+			"meta": {
+			  "description": ""
+			}
+		  },
+		  {
+			"id": "0",
+			"slug": "ec82e55e-322e-4f43-b7e2-fa06ff55d26d",
+			"title": "Case",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/case.svg",
+			"position": "6",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:case"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "1",
+			  "extra": "",
+			  "description": "",
+			  "multiple": "",
+			  "saved_image": "1"
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  }
+			]
+		  },
+		  {
+			"id": "0",
+			"slug": "3b52f7a7-c435-4487-a4c4-c5d451664066",
+			"title": "Power Supply",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/power.svg",
+			"position": "7",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:power-supply"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "1",
+			  "extra": "",
+			  "description": "",
+			  "multiple": "",
+			  "saved_image": ""
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  },
+			  {
+				"groupId": "product_attribute",
+				"title": "Filter by attribute",
+				"label": "Power",
+				"value": "pa_power",
+				"include": "",
+				"exclude": "",
+				"orderby": "order",
+				"query_type": "or"
+			  }
+			]
+		  },
+		  {
+			"id": "0",
+			"slug": "51af7e94-8ba0-4944-9b7f-c078b557aced",
+			"title": "Thermal Paste",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/termo.svg",
+			"position": "8",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:thermal-paste"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "",
+			  "extra": "1",
+			  "description": "",
+			  "multiple": "1",
+			  "saved_image": ""
+			},
+			"widgets": []
+		  },
+		  {
+			"id": "0",
+			"slug": "c5b0d612-452a-4f7e-9548-40430c9229b2",
+			"title": "Sound Card",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/sound.svg",
+			"position": "9",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:sound-card"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "",
+			  "extra": "1",
+			  "description": "",
+			  "multiple": "",
+			  "saved_image": ""
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  },
+			  {
+				"groupId": "product_attribute",
+				"title": "Filter by attribute",
+				"label": "Connection",
+				"value": "pa_connection-interface",
+				"include": "",
+				"exclude": "",
+				"orderby": "order",
+				"query_type": "or"
+			  }
+			]
+		  }
+		],
+		"meta": {
+		  "description": "This collection of vital hardware forms the backbone of your PC, ensuring its speed and capabilities. It includes components responsible for processing power, memory, and graphics performance."
+		}
+	  },
+	  {
+		"id": "0",
+		"config_id": "0",
+		"title": "Periphery",
+		"slug": "4ab6dbe8-da59-414c-912b-aa6a58b04057",
+		"parent_id": "0",
+		"image_id": "0",
+		"position": "1",
+		"components": [
+		  {
+			"id": "0",
+			"slug": "f24dab31-ea95-4c02-a1bc-d22c8fd5b4f0",
+			"title": "Monitor",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/monitor2.svg",
+			"position": "0",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:monitor"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "",
+			  "extra": "",
+			  "description": "Your computer's visual window to the digital world. This category includes everything related to display screens, a critical component for interacting with your computer and experiencing visuals.",
+			  "multiple": "1",
+			  "saved_image": "1"
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  }
+			]
+		  },
+		  {
+			"id": "0",
+			"slug": "7e78c2dd-b39e-4df7-b5f5-711ad4b4d9bb",
+			"title": "Keyboard",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/keyboard.svg",
+			"position": "1",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:keyboard"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "",
+			  "extra": "",
+			  "description": "",
+			  "multiple": "",
+			  "saved_image": ""
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  },
+			  {
+				"groupId": "product_attribute",
+				"title": "Filter by attribute",
+				"label": "Type",
+				"value": "pa_connectivity",
+				"include": "",
+				"exclude": "",
+				"orderby": "order",
+				"query_type": "or"
+			  }
+			]
+		  },
+		  {
+			"id": "0",
+			"slug": "0a7f67f1-e3b6-4610-ba81-5ea25652bf83",
+			"title": "Mouse",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/mouse.svg",
+			"position": "2",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:mouse"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "",
+			  "extra": "",
+			  "description": "",
+			  "multiple": "",
+			  "saved_image": ""
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  },
+			  {
+				"groupId": "product_attribute",
+				"title": "Filter by attribute",
+				"label": "Type",
+				"value": "pa_connectivity",
+				"include": "",
+				"exclude": "",
+				"orderby": "order",
+				"query_type": "or"
+			  }
+			]
+		  },
+		  {
+			"id": "0",
+			"slug": "afa5d925-3258-4013-beb4-0dd196f69214",
+			"title": "Headphone",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/headphone.svg",
+			"position": "3",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:headphone"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "",
+			  "extra": "1",
+			  "description": "",
+			  "multiple": "",
+			  "saved_image": ""
+			},
+			"widgets": []
+		  }
+		],
+		"meta": {
+		  "description": "External components that expand your computer's functionality, from input devices like keyboards and mice to output devices like monitors and printers. They're essential for your computing experience."
+		}
+	  },
+	  {
+		"id": "0",
+		"config_id": "0",
+		"title": "Software and games",
+		"slug": "c2912792-6b07-4b4f-87c5-abfc66f90087",
+		"parent_id": "0",
+		"image_id": "0",
+		"position": "2",
+		"components": [
+		  {
+			"id": "0",
+			"slug": "4bde3139-e22c-4233-b6e0-1f54e9fba041",
+			"title": "OS Windows",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/09/windows.svg",
+			"position": "1",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:os"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "",
+			  "extra": "",
+			  "description": "",
+			  "multiple": "",
+			  "saved_image": ""
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": ""
+			  }
+			]
+		  },
+		  {
+			"id": "0",
+			"slug": "cfb89bdb-296d-4105-a90e-e8bfcf01b955",
+			"title": "Office",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/09/application.svg",
+			"position": "2",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:programs"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "",
+			  "extra": "",
+			  "description": "",
+			  "multiple": "1",
+			  "saved_image": ""
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  }
+			]
+		  },
+		  {
+			"id": "0",
+			"slug": "cb12746a-07b2-4af3-a6da-75729862f78d",
+			"title": "Games",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/09/games.svg",
+			"position": "3",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:games"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "",
+			  "extra": "",
+			  "description": "",
+			  "multiple": "1",
+			  "saved_image": ""
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  }
+			]
+		  }
+		],
+		"meta": {
+		  "description": "The digital heart of your computer. This category includes all the applications, programs, and games that make your PC useful and enjoyable."
+		}
+	  }
+	]
+  }

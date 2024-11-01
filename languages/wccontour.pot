@@ -1,0 +1,1039 @@
+# Copyright (C) 2024 wsjrcatarri
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WC Contour - Product Bundles Builder for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wccontour(wordpress)\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-01-30T07:19:40+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: wccontour\n"
+
+#. Plugin Name of the plugin
+msgid "WC Contour - Product Bundles Builder for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wccontour.evelynwaugh.com.ua/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Enables product configuration through an intuitive builder, empowering customers to create and save product bundles."
+msgstr ""
+
+#. Author of the plugin
+msgid "wsjrcatarri"
+msgstr ""
+
+#: includes/admin.php:28
+#: includes/functions.php:1413
+#: assets/dist/settings.js:102
+msgid "Saved lists"
+msgstr ""
+
+#: includes/admin.php:61
+#: includes/admin.php:62
+msgid "WC Contour"
+msgstr ""
+
+#: includes/admin.php:70
+msgid "Settings"
+msgstr ""
+
+#: includes/admin.php:71
+msgid "Builder"
+msgstr ""
+
+#: includes/admin.php:231
+msgid "Select page"
+msgstr ""
+
+#: includes/admin.php:421
+msgid "Product compatibility"
+msgstr ""
+
+#: includes/ajax.php:1000
+msgid "Wrong ID"
+msgstr ""
+
+#: includes/ajax.php:1278
+msgid "No user found"
+msgstr ""
+
+#: includes/ajax.php:1291
+msgid "No records found"
+msgstr ""
+
+#: includes/ajax.php:1302
+msgid "You have reached max allowed lists"
+msgstr ""
+
+#: includes/ajax.php:1539
+msgid "ID not valid"
+msgstr ""
+
+#: includes/ajax.php:1546
+#: includes/ajax.php:1553
+msgid "JSON is not valid"
+msgstr ""
+
+#: includes/ajax.php:1667
+msgid "ID is not exists"
+msgstr ""
+
+#: includes/front-actions.php:34
+msgid "Default sorting"
+msgstr ""
+
+#: includes/front-actions.php:35
+msgid "Sort by popularity"
+msgstr ""
+
+#: includes/front-actions.php:36
+msgid "Sort by average rating"
+msgstr ""
+
+#: includes/front-actions.php:37
+msgid "Sort by latest"
+msgstr ""
+
+#: includes/front-actions.php:38
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: includes/front-actions.php:39
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: includes/front-actions.php:43
+msgid "Sort by:"
+msgstr ""
+
+#: includes/front-actions.php:50
+msgid "All"
+msgstr ""
+
+#: includes/front-actions.php:51
+#: templates/product-list.php:111
+#: templates/product-list.php:189
+msgid "In stock"
+msgstr ""
+
+#: includes/front-actions.php:55
+msgid "Stock"
+msgstr ""
+
+#: includes/front-actions.php:61
+msgid "Search"
+msgstr ""
+
+#: includes/front-actions.php:95
+#: assets/dist/app.js:102
+#: assets/dist/settings.js:102
+msgid "Required"
+msgstr ""
+
+#: includes/front-actions.php:200
+msgid "Extra"
+msgstr ""
+
+#: includes/front-actions.php:271
+msgid "Clear"
+msgstr ""
+
+#: includes/front-actions.php:275
+#: assets/dist/app.js:102
+#: assets/dist/settings.js:102
+msgid "Save"
+msgstr ""
+
+#: includes/front-actions.php:280
+#: templates/saved-lists.php:282
+#: templates/users-lists.php:257
+msgid "Share"
+msgstr ""
+
+#: includes/front-actions.php:414
+msgid "Reset"
+msgstr ""
+
+#: includes/front-actions.php:417
+msgid "Reset attributes"
+msgstr ""
+
+#: includes/frontend.php:115
+#: assets/dist/app.js:102
+msgid "Saved!"
+msgstr ""
+
+#: includes/frontend.php:116
+msgid "Removed successfully!"
+msgstr ""
+
+#: includes/frontend.php:117
+msgid "Copied!"
+msgstr ""
+
+#: includes/frontend.php:119
+#: assets/dist/app.js:102
+msgid "Something went wrong. Try again."
+msgstr ""
+
+#: includes/frontend.php:120
+msgid "Added to cart!"
+msgstr ""
+
+#: includes/frontend.php:121
+msgid "Are you sure?"
+msgstr ""
+
+#: includes/frontend.php:124
+#: includes/product.php:96
+msgid "N/A"
+msgstr ""
+
+#: includes/frontend.php:139
+msgid " In stock"
+msgstr ""
+
+#: includes/frontend.php:140
+msgid " Out of stock"
+msgstr ""
+
+#: includes/frontend.php:153
+#: templates/product-top-section.php:46
+msgid "Users's collections"
+msgstr ""
+
+#: includes/frontend.php:166
+#: templates/product-top-section.php:44
+msgid "My collections"
+msgstr ""
+
+#: includes/functions.php:992
+msgid "&laquo; Previous"
+msgstr ""
+
+#: includes/functions.php:993
+msgid "Next &raquo;"
+msgstr ""
+
+#: includes/functions.php:1060
+#: includes/functions.php:1072
+#: includes/functions.php:1142
+#: includes/functions.php:1154
+#: includes/functions.php:1235
+#: includes/functions.php:1247
+#: includes/functions.php:1327
+#: includes/functions.php:1339
+msgid "Choose an option"
+msgstr ""
+
+#: includes/functions.php:1487
+msgid "Link"
+msgstr ""
+
+#: includes/functions.php:1496
+msgid "Telegram"
+msgstr ""
+
+#: includes/functions.php:1505
+msgid "Viber"
+msgstr ""
+
+#: includes/functions.php:1514
+msgid "Facebook"
+msgstr ""
+
+#: includes/functions.php:1523
+msgid "Twitter"
+msgstr ""
+
+#: includes/functions.php:1532
+msgid "Pinterest"
+msgstr ""
+
+#: includes/functions.php:1541
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/functions.php:1550
+msgid "WhatsApp"
+msgstr ""
+
+#: includes/import.php:300
+msgid "PC Builder"
+msgstr ""
+
+#: includes/import.php:303
+msgid "Bicycle Builder"
+msgstr ""
+
+#: includes/import.php:306
+msgid "Camping Builder"
+msgstr ""
+
+#: includes/product.php:99
+msgid "SKU:"
+msgstr ""
+
+#: includes/shortcodes.php:87
+msgid "Not found"
+msgstr ""
+
+#: includes/widgets/widget-attributes.php:39
+#: includes/widgets/widget-meta.php:25
+#: includes/widgets/widget-price.php:25
+#: includes/widgets/widget-taxonomies.php:39
+msgid "Not intended to use."
+msgstr ""
+
+#: includes/widgets/widget-attributes.php:41
+msgid "WCCON Attributes"
+msgstr ""
+
+#: includes/widgets/widget-attributes.php:45
+msgid "Product Attributes"
+msgstr ""
+
+#: includes/widgets/widget-attributes.php:46
+#: includes/widgets/widget-meta.php:32
+#: includes/widgets/widget-price.php:32
+#: includes/widgets/widget-taxonomies.php:46
+#: assets/dist/app.js:102
+msgid "Title"
+msgstr ""
+
+#: includes/widgets/widget-attributes.php:51
+#: includes/widgets/widget-taxonomies.php:51
+msgid "Taxonomy"
+msgstr ""
+
+#: includes/widgets/widget-attributes.php:57
+#: includes/widgets/widget-meta.php:47
+#: includes/widgets/widget-price.php:42
+#: includes/widgets/widget-taxonomies.php:105
+msgid "Query Args"
+msgstr ""
+
+#: includes/widgets/widget-attributes.php:62
+#: includes/widgets/widget-meta.php:52
+#: includes/widgets/widget-price.php:47
+#: includes/widgets/widget-taxonomies.php:110
+msgid "WCC Query"
+msgstr ""
+
+#. translators: %s: attributes count
+#: includes/widgets/widget-attributes.php:205
+#: includes/widgets/widget-meta.php:195
+#: includes/widgets/widget-taxonomies.php:293
+msgid "More (%s)"
+msgstr ""
+
+#. translators: %s: attributes count
+#: includes/widgets/widget-attributes.php:205
+#: includes/widgets/widget-meta.php:195
+#: includes/widgets/widget-taxonomies.php:293
+msgid "Less"
+msgstr ""
+
+#: includes/widgets/widget-meta.php:27
+msgid "WCCON Metas"
+msgstr ""
+
+#: includes/widgets/widget-meta.php:31
+#: includes/widgets/widget-price.php:31
+#: assets/dist/app.js:102
+#: assets/dist/settings.js:102
+msgid "Filter by price"
+msgstr ""
+
+#: includes/widgets/widget-meta.php:37
+msgid "Meta key"
+msgstr ""
+
+#: includes/widgets/widget-meta.php:42
+msgid "Meta values"
+msgstr ""
+
+#: includes/widgets/widget-price.php:27
+msgid "WCCON Price"
+msgstr ""
+
+#: includes/widgets/widget-price.php:37
+#: assets/dist/app.js:102
+msgid "Show inputs"
+msgstr ""
+
+#: includes/widgets/widget-price.php:116
+msgid "Apply"
+msgstr ""
+
+#: includes/widgets/widget-taxonomies.php:41
+msgid "WCCON Taxonomies"
+msgstr ""
+
+#: includes/widgets/widget-taxonomies.php:45
+msgid "Product Taxonomies"
+msgstr ""
+
+#: includes/widgets/widget-taxonomies.php:56
+#: assets/dist/app.js:102
+msgid "Include"
+msgstr ""
+
+#: includes/widgets/widget-taxonomies.php:61
+#: assets/dist/app.js:102
+msgid "Exclude"
+msgstr ""
+
+#: includes/widgets/widget-taxonomies.php:66
+msgid "Order by"
+msgstr ""
+
+#: includes/widgets/widget-taxonomies.php:68
+#: assets/dist/app.js:102
+msgid "Category order"
+msgstr ""
+
+#: includes/widgets/widget-taxonomies.php:69
+#: assets/dist/app.js:102
+msgid "Name"
+msgstr ""
+
+#: includes/widgets/widget-taxonomies.php:75
+msgid "Show as dropdown"
+msgstr ""
+
+#: includes/widgets/widget-taxonomies.php:80
+msgid "Show product counts"
+msgstr ""
+
+#: includes/widgets/widget-taxonomies.php:85
+msgid "Show hierarchy"
+msgstr ""
+
+#: includes/widgets/widget-taxonomies.php:90
+msgid "Only show children of the current category"
+msgstr ""
+
+#: includes/widgets/widget-taxonomies.php:95
+msgid "Hide empty categories"
+msgstr ""
+
+#: includes/widgets/widget-taxonomies.php:100
+#: assets/dist/app.js:102
+msgid "Depth"
+msgstr ""
+
+#: templates/blank-builder.php:96
+#: templates/blank-builder.php:146
+#: templates/blank-builder.php:186
+#: templates/saved-builder.php:142
+#: templates/saved-builder.php:239
+#: templates/saved-builder.php:346
+#: templates/saved-builder.php:443
+#: templates/saved-builder.php:536
+msgid "— Expand —"
+msgstr ""
+
+#: templates/blank-builder.php:97
+#: templates/blank-builder.php:101
+#: templates/blank-builder.php:147
+#: templates/blank-builder.php:151
+#: templates/blank-builder.php:187
+#: templates/blank-builder.php:190
+#: templates/saved-builder.php:143
+#: templates/saved-builder.php:147
+#: templates/saved-builder.php:240
+#: templates/saved-builder.php:244
+#: templates/saved-builder.php:347
+#: templates/saved-builder.php:351
+#: templates/saved-builder.php:444
+#: templates/saved-builder.php:447
+#: templates/saved-builder.php:537
+#: templates/saved-builder.php:540
+msgid "— Collapse —"
+msgstr ""
+
+#: templates/blank-builder.php:100
+#: templates/blank-builder.php:150
+#: templates/blank-builder.php:189
+#: templates/saved-builder.php:146
+#: templates/saved-builder.php:243
+#: templates/saved-builder.php:350
+#: templates/saved-builder.php:446
+#: templates/saved-builder.php:539
+msgid "— Choose —"
+msgstr ""
+
+#: templates/blank-builder.php:251
+#: templates/saved-builder.php:612
+msgid "Add to cart"
+msgstr ""
+
+#: templates/filled-component.php:107
+#: templates/templates.php:91
+msgid "Outofstock"
+msgstr ""
+
+#: templates/product-builder.php:34
+msgid "Clear all"
+msgstr ""
+
+#: templates/product-builder.php:135
+msgid "Filters"
+msgstr ""
+
+#: templates/product-builder.php:177
+#: templates/users-lists.php:290
+msgid "Nothing found"
+msgstr ""
+
+#: templates/product-list.php:114
+#: templates/product-list.php:192
+msgid "Out of stock"
+msgstr ""
+
+#. translators: %s: date created
+#: templates/saved-lists.php:148
+#: templates/users-lists.php:126
+msgid "Assebly from %s"
+msgstr ""
+
+#: templates/saved-lists.php:151
+msgid "Delete"
+msgstr ""
+
+#: templates/saved-lists.php:279
+#: templates/users-lists.php:254
+msgid "Edit"
+msgstr ""
+
+#: templates/saved-lists.php:290
+#: templates/users-lists.php:265
+msgid "Buy"
+msgstr ""
+
+#: templates/saved-lists.php:316
+msgid "No list saved yet"
+msgstr ""
+
+#: templates/saved-lists.php:322
+#: templates/users-lists.php:297
+msgid "Load more"
+msgstr ""
+
+#: wccontour.php:235
+msgid "WC Contour requires at least 7.4 php version."
+msgstr ""
+
+#: wccontour.php:245
+msgid "WooCommerce must be active and have at least 5.0.0 version."
+msgstr ""
+
+#: wccontour.php:256
+msgid "WooCommerce must be active."
+msgstr ""
+
+#: assets/dist/app.js:102
+#: assets/dist/settings.js:102
+msgid "Just mark as required"
+msgstr ""
+
+#: assets/dist/app.js:102
+#: assets/dist/settings.js:102
+msgid "Is Extra component"
+msgstr ""
+
+#: assets/dist/app.js:102
+#: assets/dist/settings.js:102
+msgid "Will be shown in collapsable extra block"
+msgstr ""
+
+#: assets/dist/app.js:102
+#: assets/dist/settings.js:102
+msgid "Description"
+msgstr ""
+
+#: assets/dist/app.js:102
+#: assets/dist/settings.js:102
+msgid "Description2"
+msgstr ""
+
+#: assets/dist/app.js:102
+#: assets/dist/settings.js:102
+msgid "Product attribute"
+msgstr ""
+
+#: assets/dist/app.js:102
+#: assets/dist/settings.js:102
+msgid "Multiple selection"
+msgstr ""
+
+#: assets/dist/app.js:102
+#: assets/dist/settings.js:102
+msgid "Allow multiple products to be selected"
+msgstr ""
+
+#: assets/dist/app.js:102
+#: assets/dist/settings.js:102
+msgid "Saved list image"
+msgstr ""
+
+#: assets/dist/app.js:102
+#: assets/dist/settings.js:102
+msgid "Component's image will be shown in saved lists"
+msgstr ""
+
+#: assets/dist/app.js:102
+#: assets/dist/settings.js:102
+msgid "Filter by taxonomy"
+msgstr ""
+
+#: assets/dist/app.js:102
+#: assets/dist/settings.js:102
+msgid "Filter by attribute"
+msgstr ""
+
+#: assets/dist/app.js:102
+#: assets/dist/settings.js:102
+msgid "Filter by meta"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Type to search…"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Configure frontend widgets"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Manage filters"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Filter widgets"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Add widget"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Select"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Show children only"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "(ids, separated by comma)"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Orderby"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Select meta"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Product meta"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Meta Values"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "(separated by comma)"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Product taxonomy"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Product list"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Configure display products by query"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Product Query"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Add query"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Products"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Meta value"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "(leave blank for all values)"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "New Component"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Group"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Group name"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Add Component"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "New SubGroup"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "New Group"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Add SubGroup"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Components:"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Remove Group"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "SubGroup"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Remove SubGroup"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Component"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Remove Component"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Language"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Add builder"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "You are using FREE version,"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid " only 1 builder item available"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Your shortcode: "
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Type"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "(combine related builders by type)"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Associated page:"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "(default fo home)"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Important: for applying styles, building share links and more"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Add Group"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Save current item"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Select Associated page"
+msgstr ""
+
+#: assets/dist/app.js:102
+#: assets/dist/settings.js:102
+msgid "Something went wrong"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Save item"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Remove current item"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Remove item"
+msgstr ""
+
+#: assets/dist/app.js:102
+#: assets/dist/settings.js:102
+msgid "Are you sure ?"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Removed!"
+msgstr ""
+
+#: assets/dist/app.js:102
+#: assets/dist/settings.js:102
+msgid "Confirm"
+msgstr ""
+
+#: assets/dist/app.js:102
+#: assets/dist/settings.js:102
+msgid "Cancel"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Upgrade to PRO plan"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "Upgrade"
+msgstr ""
+
+#: assets/dist/app.js:102
+msgid "First add builder"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "Imported!"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "View Builder"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "General"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "Style"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "Socials"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "Import"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "Data"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "PRO"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "Account endpoint"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "(myaccount page)"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "Account endpoint title"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "Saved lists per page"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "(myaccount/builder page)"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "Max Saved lists allowed"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "(for registered users only)"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "Products per page"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "(builder page)"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "Enable products compatibility"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "(adds metabox on product page)"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "Save to localStorage"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "(saves live changes, works both for guest and registered users, saves only one scheme per builder - latest)"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "Show Saved lists in all languages on builder page"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "(when WPML/Polylang enabled)"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "Show Saved lists in all languages on account page"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "Sticky total bar"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "Enable"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "Enable Button type for variation attributes"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "(replace standart Select type)"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "Select product image size"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "Select size"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "(Recommended select non-cropped sizes)"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "Computer"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "Import Demo #1*"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "Bicycle"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "Import Demo #2*"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "Camping"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "Import Demo #3*"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "*Import contains SVG icons, you should have installed SVG support plugin to properly import those icons"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "Delete on uninstall all data associated with this plugin, including custom tables"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "Clear all data"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "*By clicking all data will be deleted irrevocably"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "Debugging"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "Select item"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "Updated!"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "ID not found"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "Update"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "*By clicking selected item will be updated irrevocably"
+msgstr ""
+
+#: assets/dist/settings.js:102
+msgid "Settings saved!"
+msgstr ""

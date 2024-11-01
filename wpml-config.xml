@@ -1,0 +1,10 @@
+<wpml-config>
+   <shortcodes>
+        <shortcode>
+            <tag>wccon-builder</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+    </shortcodes>
+</wpml-config>

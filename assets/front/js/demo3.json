@@ -1,0 +1,533 @@
+{
+	"id": "0",
+	"shortcode_id": "53",
+	"type": "builder",
+	"title": "Camping Builder",
+	"page_id": "0",
+	"lang": "",
+	"groups": [
+	  {
+		"id": "0",
+		"config_id": "0",
+		"title": "Camping Equipment",
+		"slug": "11637b4d-5fb4-4b5f-9fa2-ea305a345c3a",
+		"parent_id": "0",
+		"image_id": "0",
+		"position": "0",
+		"components": [
+		  {
+			"id": "0",
+			"slug": "37bac12f-8e00-4f0c-adfb-3ba82cb1fa07",
+			"title": "Tent",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/tent.svg",
+			"position": "0",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:tents"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "",
+			  "extra": "",
+			  "description": "",
+			  "multiple": "",
+			  "saved_image": "1"
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  },
+			  {
+				"groupId": "product_attribute",
+				"title": "Filter by attribute",
+				"label": "Persons",
+				"value": "pa_sleeping-capacity",
+				"include": "",
+				"exclude": "",
+				"orderby": "order",
+				"query_type": "or"
+			  },
+			  {
+				"groupId": "product_attribute",
+				"title": "Filter by attribute",
+				"label": "Material",
+				"value": "pa_tent-material",
+				"include": "",
+				"exclude": "",
+				"orderby": "order",
+				"query_type": "or"
+			  }
+			]
+		  },
+		  {
+			"id": "0",
+			"slug": "e12558c8-f61e-4c48-9cf6-5f75c7f5f0ad",
+			"title": "Sleeping Bag",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/bag.svg",
+			"position": "1",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:sleeping-bag"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "",
+			  "extra": "",
+			  "description": "",
+			  "multiple": "",
+			  "saved_image": ""
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  },
+			  {
+				"groupId": "product_tax",
+				"title": "Filter by taxonomy",
+				"label": "Seasonality",
+				"value": "product_cat",
+				"include": "sleeping-bag",
+				"exclude": "",
+				"orderby": "order",
+				"depth": "1",
+				"show_children": "1"
+			  },
+			  {
+				"groupId": "product_attribute",
+				"title": "Filter by attribute",
+				"label": "Type",
+				"value": "pa_sleeping-bag-type",
+				"include": "",
+				"exclude": "",
+				"orderby": "order",
+				"query_type": "or"
+			  },
+			  {
+				"groupId": "product_attribute",
+				"title": "Filter by attribute",
+				"label": "Color",
+				"value": "pa_color",
+				"include": "",
+				"exclude": "",
+				"orderby": "order",
+				"query_type": "or"
+			  }
+			]
+		  },
+		  {
+			"id": "0",
+			"slug": "13b14ee3-1a4d-4237-be8f-7fae5bd56a5d",
+			"title": "Sleeping Pad",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/sleeping-pad.svg",
+			"position": "2",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:sleeping-pad"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "",
+			  "extra": "",
+			  "description": "",
+			  "multiple": "",
+			  "saved_image": ""
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  }
+			]
+		  },
+		  {
+			"id": "0",
+			"slug": "3de0a092-99b1-49ef-a54d-b901a75dd5a3",
+			"title": "Lantern",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/lantern.svg",
+			"position": "3",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:lanterns"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "",
+			  "extra": "1",
+			  "description": "",
+			  "multiple": "",
+			  "saved_image": ""
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  }
+			]
+		  }
+		],
+		"meta": {
+		  "description": "Ensure a comfortable camping experience with these essentials. A spacious tent, cozy sleeping bag, and sleeping pad offer a good night's sleep. Cook your favorite meals with a camp stove and cookware. Don't forget to light up your campsite with a camping lantern and firestarter kit. Stay relaxed in folding camping chairs and have a convenient surface with a portable camping table."
+		}
+	  },
+	  {
+		"id": "0",
+		"config_id": "0",
+		"title": "Hiking and Backpacking Gear",
+		"slug": "d187c5c1-f55b-409e-9149-36337348fe53",
+		"parent_id": "0",
+		"image_id": "0",
+		"position": "1",
+		"components": [
+		  {
+			"id": "0",
+			"slug": "e755a406-d53d-4590-8173-933808ad9475",
+			"title": "Backpack",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/bpack.svg",
+			"position": "0",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:backpacks"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "",
+			  "extra": "",
+			  "description": "",
+			  "multiple": "",
+			  "saved_image": "1"
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  }
+			]
+		  },
+		  {
+			"id": "0",
+			"slug": "27a1b8e9-d851-444c-aca9-027b1c471f39",
+			"title": "Thermos",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/thermos.svg",
+			"position": "1",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:thermos"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "",
+			  "extra": "",
+			  "description": "",
+			  "multiple": "",
+			  "saved_image": ""
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  }
+			]
+		  },
+		  {
+			"id": "0",
+			"config_id": "0",
+			"title": "Compass and map",
+			"slug": "61aa5f81-d263-4ccc-b0e2-d1ad21bbb34c",
+			"parent_id": "d187c5c1-f55b-409e-9149-36337348fe53",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/compmap.svg",
+			"position": "2",
+			"components": [
+			  {
+				"id": "0",
+				"slug": "2bc2b8ef-a699-4217-997a-703cbde5280f",
+				"title": "Compass",
+				"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/compass.svg",
+				"position": "0",
+				"meta": {
+				  "product_query": [
+					{
+					  "groupId": "product_tax",
+					  "title": "Product taxonomy",
+					  "value": [
+						"cat:compasses"
+					  ],
+					  "relation": "OR",
+					  "nextRelation": "OR"
+					}
+				  ],
+				  "required": "",
+				  "extra": "",
+				  "description": "",
+				  "multiple": "",
+				  "saved_image": ""
+				},
+				"widgets": [
+				  {
+					"groupId": "price",
+					"title": "Filter by price",
+					"label": "Price",
+					"value": "",
+					"inputs": "1"
+				  }
+				]
+			  },
+			  {
+				"id": "0",
+				"slug": "7c32cec5-3d2f-4639-9d5b-9d262481a114",
+				"title": "Map",
+				"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/map.svg",
+				"position": "1",
+				"meta": {
+				  "product_query": [
+					{
+					  "groupId": "product_tax",
+					  "title": "Product taxonomy",
+					  "value": [
+						"cat:maps"
+					  ],
+					  "relation": "OR",
+					  "nextRelation": "OR"
+					}
+				  ],
+				  "required": "",
+				  "extra": "",
+				  "description": "",
+				  "multiple": "",
+				  "saved_image": ""
+				},
+				"widgets": [
+				  {
+					"groupId": "price",
+					"title": "Filter by price",
+					"label": "Price",
+					"value": "",
+					"inputs": "1"
+				  }
+				]
+			  }
+			],
+			"meta": {
+			  "description": ""
+			}
+		  },
+		  {
+			"id": "0",
+			"slug": "d687263b-8837-483b-ab66-e55d87fd8ced",
+			"title": "Headlamp or flashlight",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/lights.svg",
+			"position": "3",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:camping-lights"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "",
+			  "extra": "",
+			  "description": "",
+			  "multiple": "1",
+			  "saved_image": ""
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  },
+			  {
+				"groupId": "product_tax",
+				"title": "Filter by taxonomy",
+				"label": "Type",
+				"value": "product_cat",
+				"include": "camping-lights",
+				"exclude": "",
+				"orderby": "order",
+				"depth": "1",
+				"show_children": "1"
+			  }
+			]
+		  }
+		],
+		"meta": {
+		  "description": "Get ready for epic hikes and backpacking adventures with these must-haves. A sturdy hiking backpack carries your gear, while trekking poles provide support. Keep safety in mind with a first aid kit, compass, and GPS device. Stay hydrated with a water purification system. A multitool or survival kit will be your go-to tool, and don't forget essentials like a headlamp, insect repellent, and bear-resistant food containers."
+		}
+	  },
+	  {
+		"id": "0",
+		"config_id": "0",
+		"title": "Outdoor Apparel and Accessories",
+		"slug": "5bd80c27-48da-4868-877f-43d9399dac08",
+		"parent_id": "0",
+		"image_id": "0",
+		"position": "2",
+		"components": [
+		  {
+			"id": "0",
+			"slug": "7ab74f07-297c-4806-8a95-8b99ec314e96",
+			"title": "Hiking boots",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/boots.svg",
+			"position": "0",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:boots"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "",
+			  "extra": "",
+			  "description": "",
+			  "multiple": "",
+			  "saved_image": ""
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  },
+			  {
+				"groupId": "product_tax",
+				"title": "Filter by taxonomy",
+				"label": "Categories",
+				"value": "product_cat",
+				"include": "boots",
+				"exclude": "",
+				"orderby": "order",
+				"depth": "1",
+				"show_children": "1"
+			  },
+			  {
+				"groupId": "product_attribute",
+				"title": "Filter by attribute",
+				"label": "Size",
+				"value": "pa_shoes-size",
+				"include": "",
+				"exclude": "",
+				"orderby": "order",
+				"query_type": "or"
+			  },
+			  {
+				"groupId": "product_attribute",
+				"title": "Filter by attribute",
+				"label": "Color",
+				"value": "pa_color",
+				"include": "",
+				"exclude": "",
+				"orderby": "order",
+				"query_type": "or"
+			  }
+			]
+		  },
+		  {
+			"id": "0",
+			"slug": "ea76eb9d-80ce-4340-841a-11aea82373be",
+			"title": "Cords",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/cords.svg",
+			"position": "1",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:cords"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "",
+			  "extra": "",
+			  "description": "",
+			  "multiple": "1",
+			  "saved_image": ""
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  }
+			]
+		  }
+		],
+		"meta": {
+		  "description": "Dress and equip yourself for outdoor success. Stay dry and warm with a waterproof and insulated jacket, moisture-wicking base layers, and hiking boots. Protect your head, hands, and legs with hats, gloves, and gaiters. Guard your backpack with a rain cover, keep your vision clear with sunglasses, and quench your thirst with a hydration system or water bottles. Freshen up with a portable camping shower before resting up for your next adventure."
+		}
+	  }
+	]
+  }

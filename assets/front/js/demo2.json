@@ -1,0 +1,552 @@
+{
+	"id": "0",
+	"shortcode_id": "43",
+	"type": "builder",
+	"title": "Bicycle Builder",
+	"page_id": "0",
+	"lang": "",
+	"groups": [
+	  {
+		"id": "0",
+		"config_id": "0",
+		"title": "Main Components",
+		"slug": "f6816737-2ab7-4102-bcd1-73fe1de4008e",
+		"parent_id": "0",
+		"image_id": "0",
+		"position": "0",
+		"components": [
+		  {
+			"id": "0",
+			"slug": "7f9bf41b-0cfa-467f-97fe-24b364760ce3",
+			"title": "Frameset",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/162114.svg",
+			"position": "0",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:frameset"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "1",
+			  "extra": "",
+			  "description": "",
+			  "multiple": "",
+			  "saved_image": "1"
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  },
+			  {
+				"groupId": "product_attribute",
+				"title": "Filter by attribute",
+				"label": "Color",
+				"value": "pa_color",
+				"include": "",
+				"exclude": "",
+				"orderby": "order",
+				"query_type": "or"
+			  },
+			  {
+				"groupId": "product_attribute",
+				"title": "Filter by attribute",
+				"label": "Size",
+				"value": "pa_size",
+				"include": "",
+				"exclude": "",
+				"orderby": "order",
+				"query_type": "or"
+			  }
+			]
+		  },
+		  {
+			"id": "0",
+			"slug": "785c583a-7c9b-47dd-925b-262edf05d6eb",
+			"title": "Wheel",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/noun-wheel-117414.svg",
+			"position": "1",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:wheels"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "1",
+			  "extra": "",
+			  "description": "",
+			  "multiple": "1",
+			  "saved_image": "1"
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  },
+			  {
+				"groupId": "product_attribute",
+				"title": "Filter by attribute",
+				"label": "Size",
+				"value": "pa_wheel-size",
+				"include": "",
+				"exclude": "",
+				"orderby": "order",
+				"query_type": "or"
+			  },
+			  {
+				"groupId": "product_attribute",
+				"title": "Filter by attribute",
+				"label": "Color",
+				"value": "pa_color",
+				"include": "",
+				"exclude": "",
+				"orderby": "order",
+				"query_type": "or"
+			  },
+			  {
+				"groupId": "product_attribute",
+				"title": "Filter by attribute",
+				"label": "Material",
+				"value": "pa_bike-material",
+				"include": "",
+				"exclude": "",
+				"orderby": "order",
+				"query_type": "or"
+			  }
+			]
+		  },
+		  {
+			"id": "0",
+			"slug": "175cb212-ce5d-4e07-bbdd-009be9a51e91",
+			"title": "Drivetrain",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/crank.svg",
+			"position": "2",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:drivetrain"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "1",
+			  "extra": "",
+			  "description": "",
+			  "multiple": "",
+			  "saved_image": ""
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  }
+			]
+		  },
+		  {
+			"id": "0",
+			"slug": "8f423aa1-043f-4b43-a266-48f31d665acf",
+			"title": "Brakes",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/brakes.svg",
+			"position": "3",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:brakes"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "1",
+			  "extra": "",
+			  "description": "",
+			  "multiple": "",
+			  "saved_image": ""
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  }
+			]
+		  }
+		],
+		"meta": {
+		  "description": "The fundamental building blocks of your ride. This category covers the crucial elements that define your bicycle's structure, propulsion, and mobility."
+		}
+	  },
+	  {
+		"id": "0",
+		"config_id": "0",
+		"title": "Control and Comfort",
+		"slug": "d66d5675-2719-4729-84fd-5f1b3c2d85ca",
+		"parent_id": "0",
+		"image_id": "0",
+		"position": "1",
+		"components": [
+		  {
+			"id": "0",
+			"slug": "8b95ba0f-6ee0-42d2-83f7-da2063a42727",
+			"title": "Handlebars",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/noun-handlebar-15716.svg",
+			"position": "0",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:handlebar"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "1",
+			  "extra": "",
+			  "description": "",
+			  "multiple": "",
+			  "saved_image": ""
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  },
+			  {
+				"groupId": "product_tax",
+				"title": "Filter by taxonomy",
+				"label": "Type",
+				"value": "product_cat",
+				"include": "handlebar",
+				"exclude": "",
+				"orderby": "order",
+				"depth": "1",
+				"show_children": "1"
+			  }
+			]
+		  },
+		  {
+			"id": "0",
+			"slug": "156e835e-29a7-4d92-880b-3bb15a3c4cbb",
+			"title": "Saddle",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/saddle.svg",
+			"position": "1",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:saddles"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "1",
+			  "extra": "",
+			  "description": "",
+			  "multiple": "",
+			  "saved_image": ""
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  },
+			  {
+				"groupId": "product_attribute",
+				"title": "Filter by attribute",
+				"label": "Color",
+				"value": "pa_color",
+				"include": "",
+				"exclude": "",
+				"orderby": "order",
+				"query_type": "or"
+			  }
+			]
+		  },
+		  {
+			"id": "0",
+			"slug": "0ae93c9c-0bcb-42e4-be5a-fe5b71a3ee7c",
+			"title": "Pedals",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/pedall.svg",
+			"position": "2",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:pedals"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "1",
+			  "extra": "",
+			  "description": "",
+			  "multiple": "",
+			  "saved_image": ""
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  }
+			]
+		  }
+		],
+		"meta": {
+		  "description": "The key components that shape your riding experience. This category encompasses elements essential for control and ergonomic comfort while cycling."
+		}
+	  },
+	  {
+		"id": "0",
+		"config_id": "0",
+		"title": "Accessories",
+		"slug": "b06e2bb9-3774-4ed3-a958-e812ab38517a",
+		"parent_id": "0",
+		"image_id": "0",
+		"position": "2",
+		"components": [
+		  {
+			"id": "0",
+			"slug": "fa0633ba-d8ee-4c73-b29b-07630556c4bc",
+			"title": "Fenders",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/pngwing.com_.png",
+			"position": "0",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:fenders"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "",
+			  "extra": "",
+			  "description": "",
+			  "multiple": "",
+			  "saved_image": ""
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  }
+			]
+		  },
+		  {
+			"id": "0",
+			"slug": "973ebd9d-0eae-4108-ae46-113e5a37bc0c",
+			"title": "Lights",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/flashlight.svg",
+			"position": "1",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:lights"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "",
+			  "extra": "",
+			  "description": "",
+			  "multiple": "",
+			  "saved_image": ""
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  }
+			]
+		  },
+		  {
+			"id": "0",
+			"slug": "628aeae4-666d-4b64-9c88-d30bf25537fd",
+			"title": "Water Bottle",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/bottle.svg",
+			"position": "2",
+			"meta": {
+			  "product_query": [
+				{
+					"groupId":"product_tax",
+					"title":"Product taxonomy",
+					"value":[
+						"cat:bottles"
+					],
+					"relation":"OR",
+					"nextRelation":"OR"
+				}
+				
+			  ],
+			  "required": "",
+			  "extra": "1",
+			  "description": "",
+			  "multiple": "",
+			  "saved_image": ""
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  }
+			]
+		  },
+		  {
+			"id": "0",
+			"slug": "047c4b20-fb2f-4b64-aa76-551a13e0685c",
+			"title": "Helmet",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/helmet.svg",
+			"position": "3",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:helmets"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "",
+			  "extra": "",
+			  "description": "",
+			  "multiple": "",
+			  "saved_image": ""
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  },
+			  {
+				"groupId": "product_attribute",
+				"title": "Filter by attribute",
+				"label": "Color",
+				"value": "pa_color",
+				"include": "",
+				"exclude": "",
+				"orderby": "order",
+				"query_type": "or"
+			  },
+			  {
+				"groupId": "product_attribute",
+				"title": "Filter by attribute",
+				"label": "Size",
+				"value": "pa_size",
+				"include": "",
+				"exclude": "",
+				"orderby": "order",
+				"query_type": "or"
+			  }
+			]
+		  },
+		  {
+			"id": "0",
+			"slug": "0ead3490-8cad-479b-8cbc-064e35f19c6c",
+			"title": "Bell",
+			"image_id": "https://wccontour.evelynwaugh.com.ua/wp-content/uploads/2023/10/bell.svg",
+			"position": "4",
+			"meta": {
+			  "product_query": [
+				{
+				  "groupId": "product_tax",
+				  "title": "Product taxonomy",
+				  "value": [
+					"cat:ringbells"
+				  ],
+				  "relation": "OR",
+				  "nextRelation": "OR"
+				}
+			  ],
+			  "required": "",
+			  "extra": "1",
+			  "description": "",
+			  "multiple": "",
+			  "saved_image": ""
+			},
+			"widgets": [
+			  {
+				"groupId": "price",
+				"title": "Filter by price",
+				"label": "Price",
+				"value": "",
+				"inputs": "1"
+			  }
+			]
+		  }
+		],
+		"meta": {
+		  "description": "The extra features and add-ons that enhance your cycling experience. This category covers a range of optional components and gadgets that personalize and augment your ride."
+		}
+	  }
+	]
+  }
